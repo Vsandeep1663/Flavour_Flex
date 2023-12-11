@@ -1,0 +1,16 @@
+<app-navbar></app-navbar>
+<div class="container1 mt-5">
+    <div class="container-image">
+      <img [src]="details.src" [alt]="details.alt"data-aos="fade-right">
+    </div>
+    <div class="container-content">
+        <h2 data-aos="fade-down">{{details.title}}</h2>
+        <p data-aos="fade-down">{{details.desc}}</p>
+        <div class="card-price">
+            <h1 class="mt-2" style="font-size: 20px; text-decoration: none;">{{details.price|currency:'INR'}}</h1>
+        </div><br>
+        <button class="btn btn-outline-danger mb-4" (click)="addToCart()">Add Cart</button>
+
+    </div>
+</div>
+<app-footer></app-footer>

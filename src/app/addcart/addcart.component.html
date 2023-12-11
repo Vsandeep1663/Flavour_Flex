@@ -1,0 +1,35 @@
+<app-navbar></app-navbar>
+<div class="container">
+<ul>
+    <li *ngFor="let cartItem of cart.items">
+        <div>
+            <img [src]="cartItem.cake.src" alt="">
+        </div>
+        <div>
+            <a routerLink="/cakedetails/{{cartItem.cake.id}}" style="text-decoration: none; color: black; font-size: 24px;">{{cartItem.cake.title}}</a>
+        </div>
+        <div>{{cartItem.cake.price | currency: 'INR'}}</div>
+        <div>
+            <button (click)="removeFromCart(cartItem)" class="btn btn-outline-danger">Remove</button>
+        </div>
+        <div>
+            <button (click)="Request()" class="btn btn-outline-success">Request</button>
+        </div>
+        <div>
+            <button class="btn btn-outline-success" (click)="onclick()">place Order</button>
+        </div>
+    </li>
+</ul>
+</div>
+<!-- <div class="container">
+    <div class="col" *ngFor="let cartItem of cart.items">
+        <div class="card">
+            <img [src]="cartItem.cake.src" alt="">
+        </div>
+    </div>
+</div> -->
+
+<div class="container">
+   
+</div>
+<app-footer></app-footer>

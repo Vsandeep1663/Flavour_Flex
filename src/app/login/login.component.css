@@ -1,0 +1,49 @@
+.container {
+    max-width: 400px;
+  position: absolute;
+  top: 150px;
+  right: 0;
+  left: auto;
+  margin-right: 20%; /* Adjust the margin as per your preference */
+  }
+.card{
+ background: rgba(217, 217, 217, 0.4);
+border-radius: 35px;
+}
+input{
+    background: #D0CACA;
+border-radius: 15px;
+}
+::placeholder{
+    font-family: 'Alegreya Sans';
+font-style: normal;
+color: #000000;
+
+mix-blend-mode: normal;
+}
+.background-image {
+    background-image: url('../../assets/images/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    
+  }
+  @media (max-width: 695px) {
+    .container {
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+    }
+  }
+  @media (max-height: 566px){
+    .container{
+        position: absolute;
+        top: 50px;
+        right: 0;
+  left: auto;
+    }
+  }
+  
+    
+  

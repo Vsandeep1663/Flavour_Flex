@@ -1,0 +1,32 @@
+<app-navbar></app-navbar>
+<div class="container1 mt-5">
+    <div class="container-image">
+      <img [src]="details.src" [alt]="details.alt" data-aos="fade-right">
+    </div>
+    <div class="container-content">
+        <h2  data-aos="fade-down">{{details.title}}</h2>
+        <p  data-aos="fade-down">{{details.desc}}</p>
+        <div class="checkbox-row">
+          <div class="checkbox"  data-aos="fade-down">
+            <input type="checkbox" id="checkbox1" />
+            <label for="checkbox1"><img src="../../assets/images/f1.jpg" alt="Image 1" /></label>
+            <input type="checkbox" id="checkbox2" />
+            <label for="checkbox2"><img src="../../assets/images/f2.jpg" alt="Image 2" /></label>
+            <input type="checkbox" id="checkbox3" />
+            <label for="checkbox3"><img src="../../assets/images/f3.jpg" alt="Image 3" /></label>
+            <input type="checkbox" id="checkbox4" />
+            <label for="checkbox4"><img src="../../assets/images/f4.jpg" alt="Image 4" /></label>
+            <input type="checkbox" id="checkbox5" />
+            <label for="checkbox5"><img src="../../assets/images/f5.jpg" alt="Image 5" /></label>
+          </div>
+          
+    </div>
+          
+        <div class="card-price">
+            <h1 class="mt-2" style="font-size: 20px; text-decoration: none;"  >{{details.price|currency:'INR'}}</h1>
+        </div><br>
+        <button class="btn btn-outline-danger mb-4" (click)="addToCart(details,ice)" >Add Cart</button>
+
+    </div>
+</div>
+<app-footer></app-footer>

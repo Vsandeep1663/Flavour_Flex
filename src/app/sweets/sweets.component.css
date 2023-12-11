@@ -1,0 +1,7 @@
+section .row .col a{
+    text-decoration: none;
+}
+section .row .col .card-title h1{
+    text-align: center;
+    font-size: xx-large;
+}
