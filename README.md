@@ -25,3 +25,15 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+![image](https://github.com/VengisettyNagendrakumar/Flavor-Flex-/assets/95341881/227abe32-253c-40fc-8e0a-64afe6b8a5af)
+![image](https://github.com/VengisettyNagendrakumar/Flavor-Flex-/assets/95341881/5cde94fa-c004-480c-a5a0-c2f4c448b641)
+![image](https://github.com/VengisettyNagendrakumar/Flavor-Flex-/assets/95341881/65ed1fa1-44b2-412d-980e-1cb7cb49523c)
+![image](https://github.com/VengisettyNagendrakumar/Flavor-Flex-/assets/95341881/6e2d02b7-2e80-42c8-a480-5e7dd87cacec)
+![image](https://github.com/VengisettyNagendrakumar/Flavor-Flex-/assets/95341881/7219f250-fdb2-4a96-b1e0-7383cc84e4a0)
+
+
+
+
+
